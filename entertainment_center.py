@@ -38,6 +38,8 @@ scott_pilgrim = media.Movie("Scott Pilgrim v.s. the World",
 
 movies = [toy_story,avatar,lord_of_the_rings,rogue_one,the_shining,scott_pilgrim]
 
+
+#opens the html page with movie data populated
 fresh_tomatoes.open_movies_page(movies)
-print(media.Movie.MOVIE_RATINGS)
+
 
