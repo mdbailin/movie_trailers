@@ -36,10 +36,8 @@ scott_pilgrim = media.Movie("Scott Pilgrim v.s. the World",
                             "https://www.youtube.com/watch?v=7wd5KEaOtm4")
 
 
+
 movies = [toy_story,avatar,lord_of_the_rings,rogue_one,the_shining,scott_pilgrim]
-
-
-#opens the html page with movie data populated
-fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies) #creates an html page of the movies passed in
 
 
