@@ -6,6 +6,7 @@ class Movie ():
     MOVIE_RATINGS = ["G","PG","PG-13","R"]
     
     def __init__ (self,movie_title,movie_storyline,poster_image,trailer_youtube):
+        """ Initializes a movie object with a title, storyline, poster image, and youtube trailer url. """
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
