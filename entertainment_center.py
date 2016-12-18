@@ -1,7 +1,11 @@
 import fresh_tomatoes
 import media
 
+"""Six Movie objects are created here, placed into an array,
+and called by open_movies_page to populate the website.
 
+"""
+#define six movies objects
 toy_story = media.Movie("Toy Story",
                         "A boy's toys come to life!",
                         "http://www.impawards.com/1995/posters/toy_story_ver1.jpg",
@@ -21,7 +25,7 @@ lord_of_the_rings = media.Movie("The Lord of the Rings: The Fellowship of the Ri
 
 
 rogue_one = media.Movie("Rogue One: A Star Wars Story",
-                        "A Prequel to the 'Star Wars' Series",
+                        "A Prequel to the 'Star Wars' Series.",
                         "http://www.heavymetal.com/v2/wp-content/uploads/2016/01/star_wars_anthology__rogue_one_by_dan_zhbanov-d9b0ezn.jpg",
                         "https://www.youtube.com/watch?v=frdj1zb9sMY")
 
@@ -31,13 +35,14 @@ the_shining = media.Movie("The Shining",
                           "https://www.youtube.com/watch?v=1G7Ju035-8U")
 
 scott_pilgrim = media.Movie("Scott Pilgrim v.s. the World",
-                            "Scott Pilgrim fights many ex boyfriends",
+                            "Scott Pilgrim fights many ex boyfriends.",
                             "http://images.moviepostershop.com/scott-pilgrim-vs-the-world-movie-poster-2010-1010673017.jpg",
                             "https://www.youtube.com/watch?v=7wd5KEaOtm4")
 
 
-
+#movies are placed into an array
 movies = [toy_story,avatar,lord_of_the_rings,rogue_one,the_shining,scott_pilgrim]
-fresh_tomatoes.open_movies_page(movies) #creates an html page of the movies passed in
 
+#The function '.open_movies_page' calls the movies array to populate the website
+fresh_tomatoes.open_movies_page(movies)
 
